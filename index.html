@@ -1,0 +1,74 @@
+<!DOCTYPE html> <html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css"/>
+    <script type="module" src="index.js" defer></script>
+  </head>
+  <body>
+    <span class="warning">
+      &#9888; This page is still under construction.
+    </span>
+
+    <div class="main-content">
+      <div class="title-section">
+        <h1>Jakob Horvath</h1>
+        <!-- TODO: Turn into nav structure. Highlight corresponding page. -->
+        <h2>Software Engineer | Mountain Goat | Book Fanatic</h2>
+      </div>
+
+      <!-- TODO: Turn these into actual sections with subheadings -->
+      <div class="text-section"> 
+        <p>
+          Hello &#128075; my name is Jakob, and I 
+          work as a mid-level engineer at <a href="https://www.cvent.com">Cvent</a>.
+        </p>
+      </div>
+
+      <div class="text-section">
+        <p>
+          My passion for software began at the ripe old age of 17,
+          and it started, like any good story, with learning how to create a
+          "guess the number" game in C++. 
+        </p>
+        <!-- TODO: Embed wasm here -->
+        <p>
+          Since then, my mind has been captured by all of the potential 
+          that lives within these simple characters we render on to a screen.
+        </p>
+      </div>
+
+      <div class="text-section">
+        <x-info-section
+          left="In some ways, this website is an exercise in 1st-principles. 
+          You see, I regularly program in %s when I put on my frontend developer 
+          hat at work."
+          right="The corporate world's most loved library."
+          footnote="<a href='https://react.dev/'>React</a>"
+        ></x-info-section>
+          
+        <p>
+          So, I thought, why not try using 
+          <a href="https://plainvanillaweb.com/index.html">plain vanilla</a>
+          techniques for building my own website? And that is exactly what
+          I did.
+        </p>
+
+        <x-info-section
+          left="This turned out to be a great way to regain appreciation for how
+            awesome regular shmegular HTML, Javascript, and 
+            %s can be when put together properly. As well as build a better 
+            foundation and understanding for all those sugary coatings that 
+            a framework normally provides."
+          right="Yes, even CSS can be appreciated when one digs hard enough."
+          footnote="CSS"
+        ></x-info-section>
+      </div>
+
+      <div class="text-section">
+        <p>
+          As much as I love to sit and type, I have a few other hobbies that
+          (I like to think) diversify those sparse neural synapsis inside my brain.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

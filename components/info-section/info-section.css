@@ -1,0 +1,43 @@
+.x-info-section-row {
+  position: relative;
+  display: flex; 
+  flex-direction: row;
+  gap: 10px;
+}
+
+.x-info-section-left-col {
+  box-sizing: border-box;
+  width: 110%;
+}
+
+.x-info-section-right-col {
+  box-sizing: border-box;
+  width: 40%;
+}
+
+.x-info-section-aside {
+  padding-left: 1rem;
+  margin-left: 1rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px var(--brand-color-secondary);
+  font-style: italic;
+  font-size: small;
+  height: fit-content;
+  color: var(--brand-color-secondary);
+}
+
+.x-info-section-footnote {
+  position: relative;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.x-info-section-footnote::after {
+  content: "*";
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+  color: var(--brand-color-secondary);
+  font-weight: bold;
+}
+

@@ -1,0 +1,37 @@
+:root {
+  --font-system: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  --body-padding-lr: 25%;
+  --body-padding-tb: 3em;
+
+  --body-font-size: large;
+
+  --brand-color-main: #112535;
+  --brand-color-secondary: #727D71;
+  --brand-color-accent: #F1DAC4;
+  --brand-color-fun: #C14953;
+  --brand-color-royal: #998FC7;
+}
+
+@media screen and (max-width: 1500px) {
+  :root {
+    --body-padding-lr: 12em;
+    --body-padding-tb: 3em;
+
+    --body-font-size: medium;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --body-padding-lr: 9em;
+    --body-padding-tb: 3em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --body-padding-lr: 3em;
+    --body-padding-tb: 3em;
+  }
+}
