@@ -18,6 +18,7 @@
 .x-info-section-aside {
   padding-left: 1rem;
   margin-left: 1rem;
+  align-self: center;
   float: right;
   box-shadow: inset 5px 0 5px -5px var(--brand-color-secondary);
   font-style: italic;

@@ -8,20 +8,16 @@ body {
   color: var(--brand-color-accent);
 }
 
+/* TODO: Drop this bandaid and fix nav */
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: large;
+  }
+}
+
 a:link, a:visited {
   color: var(--brand-color-fun);
 }
-
-/* aside { */
-  /* padding-left: 1rem; */
-  /* margin-left: 1rem; */
-  /* float: right; */
-  /* box-shadow: inset 5px 0 5px -5px var(--brand-color-secondary); */
-  /* font-style: italic; */
-  /* font-size: small; */
-  /* height: fit-content; */
-  /* color: var(--brand-color-secondary); */
-/* } */
 
 .footnote {
   position: relative;
