@@ -3,7 +3,7 @@
 
   --body-padding-lr: 25%;
   --body-padding-tb: 3em;
-
+  
   --body-font-size: large;
 
   --brand-color-main: #112535;
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 600px) {
   :root {
-    --body-padding-lr: 3em;
-    --body-padding-tb: 3em;
+    --body-padding-lr: 1em;
+    --body-padding-tb: 1em;
   }
 }

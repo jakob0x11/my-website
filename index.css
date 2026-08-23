@@ -2,3 +2,4 @@
 @import "./styles/variables.css";
 @import "./styles/global.css";
 @import "./components/info-section/info-section.css";
+@import "./components/timeline/timeline-section.css";
