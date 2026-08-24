@@ -32,14 +32,13 @@
 }
 
 .x-timeline-subtitle {
-  color: var(--brand-color-royal);
-  text-decoration: underline;
+  color: var(--brand-color-fun);
   margin-top: 8px;
   margin-left: 12px;
 }
 
 .x-timeline-notes {
-  margin-top: 4px;
+  margin-top: 8px;
   list-style-type: circle;
 }
 

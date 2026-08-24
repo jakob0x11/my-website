@@ -15,6 +15,35 @@ body {
   }
 }
 
+header {
+  margin-bottom: 48px;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#nav-menu ol {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 16px;
+  justify-content: center;
+  padding: 0;
+  margin-top: 4px;
+}
+
+#nav-menu ol a {
+  font-size: large;
+  color: var(--brand-color-royal);
+}
+
+#nav-menu ol a:hover {
+  text-decoration: none;
+}
+
 a:link, a:visited {
   color: var(--brand-color-fun);
 }
@@ -45,12 +74,6 @@ a:link, a:visited {
   display: flex;
   flex-direction: column;
   gap: 32px;
-}
-
-.title-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .text-section {

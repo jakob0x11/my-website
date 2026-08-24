@@ -16,84 +16,91 @@
     &#9888; This page is still under construction.
   </span>
 
-  <div class="main-content">
+  <header>
     <div class="title-section">
       <h1>Jakob Horvath</h1>
-      <!-- TODO: Turn into nav structure. Highlight corresponding page. -->
-      <h2>Software Engineer | Mountain Goat | Book Fanatic</h2>
     </div>
+    <nav id="nav-menu">
+      <ol>
+        <li><a href="#" aria-current="page">Home</a></li>
+        <li><a href="pages/engineer.html">Engineer</a></li>
+      </ol>
+    </nav>
+  </header>
+  <main>
+    <div class="main-content">
+      <div class="text-section"> 
+        <p>
+          Hello &#128075; my name is Jakob, and I 
+          work as a mid-level engineer at <a href="https://www.cvent.com">Cvent</a>.
+        </p>
+      </div>
 
-    <div class="text-section"> 
-      <p>
-        Hello &#128075; my name is Jakob, and I 
-        work as a mid-level engineer at <a href="https://www.cvent.com">Cvent</a>.
-      </p>
+      <div class="text-section">
+        <p>
+          My passion for software began at the ripe old age of 17,
+          and it started, like any good story, with learning how to create a
+          "guess the number" game in C++. 
+        </p>
+        <!-- TODO: Embed wasm here -->
+        <p>
+          Since then, my mind has been captured by all of the potential 
+          that lives within these simple characters we render onto a screen.
+        </p>
+      </div>
+
+      <div class="text-section">
+        <x-info-section
+          left="In some ways, this website is an exercise in 1st-principles. 
+          You see, I regularly program in %s when I put on my frontend developer 
+          hat at work."
+          right="The corporate world's most loved library."
+          footnote="<a href='https://react.dev/'>React</a>"
+        ></x-info-section>
+          
+        <p>
+          So, I thought, why not try using 
+          <a href="https://plainvanillaweb.com/index.html">plain vanilla</a>
+          techniques for building my own website? And that is exactly what
+          I did.
+        </p>
+
+        <x-info-section
+          left="This turned out to be a great way to regain appreciation for how
+            awesome regular shmegular HTML, Javascript, and 
+            %s can be when put together properly. As well as build a better 
+            foundation and understanding for all of those sugary coatings that 
+            a framework normally provides."
+          right="Yes, even CSS can be appreciated when one digs hard enough."
+          footnote="CSS"
+        ></x-info-section>
+
+        <p>
+          Even though I find joy and efficiency in using LLM tools like 
+          OpenCode for development at work, I've discovered that there's nothing
+          like writing the code yourself, and making mistakes along the 
+          way, in order to really learn something.
+        </p>
+      </div>
+
+      <!-- Consider just placing these in their respective pages. -->
+      <div class="text-section">
+        <p>
+          As much as I love to sit and type, I have a few other hobbies that
+          (I like to think) diversify those sparse neural synapsis inside my brain.
+        </p>
+
+        <p>
+          These include hiking in the beautiful Utah mountains and cozying up
+          to a good book, typically with a cup of coffee in hand.
+        </p>
+
+        <p>
+          I hope you enjoy perusing this site even a fraction as much as I 
+          enjoyed creating it.
+        </p>
+      </div>
     </div>
-
-    <div class="text-section">
-      <p>
-        My passion for software began at the ripe old age of 17,
-        and it started, like any good story, with learning how to create a
-        "guess the number" game in C++. 
-      </p>
-      <!-- TODO: Embed wasm here -->
-      <p>
-        Since then, my mind has been captured by all of the potential 
-        that lives within these simple characters we render onto a screen.
-      </p>
-    </div>
-
-    <div class="text-section">
-      <x-info-section
-        left="In some ways, this website is an exercise in 1st-principles. 
-        You see, I regularly program in %s when I put on my frontend developer 
-        hat at work."
-        right="The corporate world's most loved library."
-        footnote="<a href='https://react.dev/'>React</a>"
-      ></x-info-section>
-        
-      <p>
-        So, I thought, why not try using 
-        <a href="https://plainvanillaweb.com/index.html">plain vanilla</a>
-        techniques for building my own website? And that is exactly what
-        I did.
-      </p>
-
-      <x-info-section
-        left="This turned out to be a great way to regain appreciation for how
-          awesome regular shmegular HTML, Javascript, and 
-          %s can be when put together properly. As well as build a better 
-          foundation and understanding for all of those sugary coatings that 
-          a framework normally provides."
-        right="Yes, even CSS can be appreciated when one digs hard enough."
-        footnote="CSS"
-      ></x-info-section>
-
-      <p>
-        Even though I find joy and efficiency in using LLM tools like 
-        OpenCode for development at work, I've discovered that there's nothing
-        like writing the code yourself, and making mistakes along the 
-        way, in order to really learn something.
-      </p>
-    </div>
-
-    <!-- Consider just placing these in their respective pages. -->
-    <div class="text-section">
-      <p>
-        As much as I love to sit and type, I have a few other hobbies that
-        (I like to think) diversify those sparse neural synapsis inside my brain.
-      </p>
-
-      <p>
-        These include hiking in the beautiful Utah mountains and cozying up
-        to a good book, typically with a cup of coffee in hand.
-      </p>
-
-      <p>
-        I hope you enjoy perusing this site even a fraction as much as I 
-        enjoyed creating it.
-      </p>
-    </div>
-  </div>
+  </main>
 </body>
 </html>
