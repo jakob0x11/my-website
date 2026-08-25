@@ -22,7 +22,18 @@ header {
 .title-section {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  gap: 12px;
+}
+
+.profile-image {
+  border-radius: 9999px;
+  width: 4em;
+  height: 4em;
+  vertical-align: middle;
+  object-fit: cover;
+  border: 2px solid var(--brand-color-accent);
 }
 
 #nav-menu ol {
@@ -37,7 +48,7 @@ header {
 
 #nav-menu ol a {
   font-size: large;
-  color: var(--brand-color-royal);
+  color: var(--brand-color-accent);
 }
 
 #nav-menu ol a:hover {
