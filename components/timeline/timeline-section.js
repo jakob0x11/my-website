@@ -36,6 +36,7 @@ class TimelineSection extends HTMLElement {
     this.#main.className = 'x-timeline-main';
     this.#title = document.createElement('h2');
     this.#description = document.createElement('p');
+    this.#description.className = "text-section";
     this.#main.append(this.#title, this.#description);
 
     article.append(aside, this.#main);
@@ -70,7 +71,7 @@ class TimelineSection extends HTMLElement {
         return;
       }
       const notesEle = document.createElement('ul');
-      notesEle.className = 'x-timeline-notes';
+      notesEle.className = 'text-section x-timeline-notes';
       for (const note of notesArr) {
         const noteEle = document.createElement('li');
         noteEle.innerText = note;
